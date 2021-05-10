@@ -1,7 +1,36 @@
-#container{
+body{
+    font-family: system-ui;
+}
 
+#container{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+#logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar{
-
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
+
+#navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display:inline;
+}
+
+
+
+
