@@ -23,13 +23,21 @@ body{
 
 #navlist{
     display: flex;
-    margin: 0;
-    padding: 0;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin: 10px;
+}
+
+.navitem{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
 }
 
 .btn{
     width: 100%;
-    padding: 12px;
+    padding: 7px;
     border: none;
     border-radius: 4px;
     margin: 5px 0;
@@ -38,6 +46,7 @@ body{
     font-size: 17px;
     line-height: 20px;
     text-decoration: none;
+    text-align: center;
 }
 
 .sign-in {
