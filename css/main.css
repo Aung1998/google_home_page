@@ -24,7 +24,6 @@ body{
 #navlist{
     display: flex;
     justify-content: flex-end;
-    align-items:flex-end;
     margin: 10px;
 }
 
@@ -51,5 +50,20 @@ body{
 
 .sign-in {
     background-color: #1a73e8;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
     color:white;
+}
+
+.apps{
+    min-height: 30px;
+    height: 30px;
+    width: auto;
+}
+
+.sign-in:hover{
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 
+    0 1px 3px 1px rgb(66 133 244 / 15%); 
 }
