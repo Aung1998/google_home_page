@@ -2,6 +2,13 @@ body{
     font-family: system-ui;
 }
 
+main{
+    height: 80%;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
 #container{
     display:flex;
     flex-direction: column;
@@ -25,6 +32,11 @@ body{
     display: flex;
     justify-content: flex-end;
     margin: 10px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
 }
 
 .search{
@@ -112,6 +124,23 @@ body{
     height: 36px;
     min-width: 54px;
     padding: 0 16px;
+}
+
+.footnavbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 20px;
+
+}
+
+.footnav{
+    display: flex;
+    justify-content:space-around;
+}
+
+.country{
+    padding: 15px 30px;
+    border-bottom: 1px solid #000;
 }
 
 a{
