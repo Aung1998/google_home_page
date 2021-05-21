@@ -1,10 +1,20 @@
 body{
     font-family: system-ui;
     margin: 0;
+    display: grid;
+    grid-template-rows: auto 77% auto;
 }
 
 main{
     height: 77%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -47,11 +57,10 @@ footer{
     align-items:center;
     margin-left: 25rem;
     margin-right: 25rem;
-    border: 1px #dfe1e5;
-    border-style: solid;
+    border: 1px solid #dfe1e5;
     border-radius: 24px;
     padding:4px;
-    height:30px;
+    height:37px;
     min-width:560px;
 }
 
@@ -138,6 +147,11 @@ footer{
     height: 36px;
     min-width: 54px;
     padding: 0 16px;
+}
+
+.btn-search:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%); 
 }
 
 .footnavbar{
