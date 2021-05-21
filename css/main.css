@@ -95,6 +95,11 @@ footer{
     text-align: center;
 }
 
+.btn-apps:hover{
+    background-color:#eee;
+    border-radius: 50%;
+}
+
 .sign-in {
     background-color: #1a73e8;
     padding-top: 9px;
